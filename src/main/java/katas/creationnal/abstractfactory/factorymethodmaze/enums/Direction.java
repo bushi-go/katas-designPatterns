@@ -1,12 +1,8 @@
-package  main.java.katas.creationnal.abstractfactory.factorymethodmaze;
+package  katas.creationnal.abstractfactory.factorymethodmaze.enums;
 
 public enum Direction{
     NORTH,
     WEST,
     EAST,
-    SOUTH,
-    NORTH-WEST,
-    NORTH-EAST,
-    SOUTH-WEST,
-    SOUTH-EAST;
+    SOUTH;
 }

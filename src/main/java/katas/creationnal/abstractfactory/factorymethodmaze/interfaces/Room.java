@@ -1,6 +1,6 @@
-package main.java.katas.creationnal.abstractfactory.factorymethodmaze;
+package katas.creationnal.abstractfactory.factorymethodmaze.interfaces;
 
-import Direction;
+import katas.creationnal.abstractfactory.factorymethodmaze.enums.Direction;
 
 public interface Room{
     public void setSide(Direction dir, Wall wall);

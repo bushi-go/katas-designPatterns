@@ -1,4 +1,7 @@
-package main.java.katas.creationnal.abstractfactory.factorymethodmaze;
+package katas.creationnal.abstractfactory.factorymethodmaze.interfaces;
+
+import katas.creationnal.abstractfactory.factorymethodmaze.interfaces.Room;
+import java.util.List;
 
 public interface Maze{
     public void addRoom(Room r);

@@ -1,6 +1,6 @@
-package main.java.katas.creationnal.abstractfactory.factorymethodmaze;
+package katas.creationnal.abstractfactory.factorymethodmaze.interfaces;
 
-import WallType;
+import katas.creationnal.abstractfactory.factorymethodmaze.enums.WallType;
 
 public interface Wall{
     public void setType(WallType type);

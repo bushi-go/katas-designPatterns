@@ -1,4 +1,10 @@
-package main.java.katas.creationnal.abstractfactory.factorymethodmaze;
+package katas.creationnal.abstractfactory.factorymethodmaze.interfaces;
+
+import katas.creationnal.abstractfactory.factorymethodmaze.enums.WallType;
+import katas.creationnal.abstractfactory.factorymethodmaze.interfaces.Room;
+import katas.creationnal.abstractfactory.factorymethodmaze.interfaces.Maze;
+import katas.creationnal.abstractfactory.factorymethodmaze.interfaces.Wall;
+import katas.creationnal.abstractfactory.factorymethodmaze.interfaces.Door;
 
 public interface MazeFactory{
     public Maze makeMaze();

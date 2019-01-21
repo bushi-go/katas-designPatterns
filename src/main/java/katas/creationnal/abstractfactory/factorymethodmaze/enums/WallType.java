@@ -1,4 +1,4 @@
-package main.java.katas.creationnal.abstractfactory.factorymethodmaze;
+package katas.creationnal.abstractfactory.factorymethodmaze.enums;
 
 public enum WallType{
     BRIQ,
